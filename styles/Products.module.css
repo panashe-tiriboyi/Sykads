@@ -1,0 +1,37 @@
+.heading {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 45px;
+}
+
+.button {
+  background-color: aqua;
+  border-radius: 21px;
+}
+
+.products {
+  margin-top: 10%;
+
+  background-image: url(../public/windows/window2.jpg);
+
+  background-size: cover;
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.product {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: fit-content;
+}
